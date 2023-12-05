@@ -61,7 +61,7 @@ stages:
    - deployment: Dev
      displayName: Dev
      environment: 
-       name: 'Dev'    
+       name: 'Vm-test'    
        resourceType: VirtualMachine
      variables:
      - name: websitePhysicalPath
